@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Color Changing App</title>
+<style>
+
+#canvas{
+    background-color: red;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    width: 600px;
+    height: 500px;
+    margin: 50px auto 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 50px auto 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: black;
+    border-radius: 5px;
+    border-style: none;
+    display: block;
+}
+</style>
+
+</head>
+<body>
+    <div id="canvas">
+        My background color will changed.
+    </div>
+    <button id="button">Click me!</button>
+    <script>
+        function myFunction() {
+      document.body.style.backgroundColor = "blue";
+    }
+    </script>
+    
+
+</body>
+</html>
